@@ -4,5 +4,6 @@ set -ex
 echo "Hi, running from pull-request"
 sleep 3
 env
-echo "Yes this is a PR again!!"
+echo "Yes this is a PR again, you know it"
+false
 
