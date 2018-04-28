@@ -1,7 +1,5 @@
 #!/bin/sh
-set -e
-set -x
-set -v
+set -exv
 
 echo "Hi, running from master"
 sleep 30
