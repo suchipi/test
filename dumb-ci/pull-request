@@ -3,6 +3,7 @@ set -ex
 
 echo "Hi, running from pull-request"
 sleep 3
-git rev-list --max-count=1 HEAD
-echo "Yes this is a PR again!!"
+env
+echo "Yes this is a PR again, you know it"
+false
 
