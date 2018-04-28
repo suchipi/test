@@ -5,5 +5,4 @@ echo "Hi, running from pull-request"
 sleep 5
 git rev-list --max-count=1 HEAD
 echo "Yes this is a PR again"
-false
 
