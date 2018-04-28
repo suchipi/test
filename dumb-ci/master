@@ -1,6 +1,8 @@
 #!/bin/sh
-
 set -e
+set -x
+set -v
+
 echo "Hi, running from master"
 sleep 30
 git rev-list --max-count=1 HEAD
