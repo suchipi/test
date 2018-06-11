@@ -2,5 +2,5 @@
 set -ex
 
 echo "Hi, running from master!!"
-sleep 120
+sleep 45
 git rev-list --max-count=1 HEAD
