@@ -4,4 +4,3 @@ set -ex
 echo "Hi, running from master!!"
 sleep 120
 git rev-list --max-count=1 HEAD
-false
